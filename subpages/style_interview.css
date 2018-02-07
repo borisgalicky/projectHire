@@ -1,0 +1,98 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+#logo{
+    width: 250px;
+    height: 140px;
+    background-color: #d4e157;
+    float: left;
+    box-shadow: 5px 0px 5px lightgrey;
+}
+
+#hire_logo{
+    margin-left: 70px;
+    margin-top: 30px;
+}
+
+#header{
+    margin-left: 250px;
+    background-color: #EDEDED;
+    height: 140px;
+    width: 172.5vh;
+    border-bottom: 1px lightgrey solid;
+}
+
+#menu{
+    background-color: white;
+    width: 250px;
+    height: 80vh;
+    box-shadow: 5px 0px 5px lightgrey;
+    float: left;
+}
+
+#my_interviews,#new_interview{
+    color: #404040;
+    height: 65px;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#my_interviews:hover,#new_interview:hover{
+    background-color: #EEEEEE;
+    cursor: pointer;
+}
+
+#my_interviews_label,#new_interview_label{
+    cursor: pointer;
+}
+
+#cross_pic,#icon_pic{
+    margin-top: 22px;
+    margin-right: 20px;
+    width:18px;
+    height:18px;
+    margin-left: 35px;
+    cursor: pointer;
+}
+
+#arrow_pic{
+    width: 10px;
+    height: 10px;
+    margin-left: 2px;
+}
+
+#edit_interview_label{
+    color: #757575;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+#username{
+    float: right;
+    margin-right: 20px;
+}
+
+#firstname,#lastname{
+    color: #6C6C6C;
+}
+
+#formular{
+    width: 150vh;
+    height: 80vh;
+    margin-left: 250px;
+}
+
+#candidate{
+    width: 75vh;
+    height: 100%;
+    float: left;
+}
+
+#interview{
+    margin-left: 75vh;
+    height: 100%;
+    width: 75vh;
+}

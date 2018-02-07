@@ -1,0 +1,91 @@
+#content{
+    width: 370px;
+    height: 440px;
+    margin: 100px auto;
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+    box-shadow: 2px 2px 1px grey;
+}
+
+#header{
+    width:370px;
+    height: 150px;
+    background-color: #D4E157;
+    text-align: center;
+}
+
+#login{
+    background-color: white;
+    height: 180px;
+}
+
+#data{
+    background-color: white;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+#username,#password{
+    padding-top: 10px;
+    width: 310px;
+    border: none;
+    border-bottom: 3px solid #D4E157;
+    font-weight: bold;
+}
+
+#hire_logo{
+    padding: 30px;
+}
+
+#login_text{
+    color: grey;
+    font-size: 14px;
+    font-weight: bold;
+    border-bottom: 2px solid #EEEEEE;
+    cursor: default;
+}
+
+#username_text{
+    color: grey;
+    font-size: 13px;
+}
+
+#password_text{
+    color: grey;
+    font-size: 13px;
+}
+
+#login_button{
+    background-color: #D4E157;
+    color: black;
+    border: none;
+    width: 120px;
+    height: 35px;
+    font-weight: 700;
+    margin-top: -5px;
+    cursor: pointer;
+    float: right;
+    border-radius: 2px;
+}
+
+#error{
+    width: 160px;
+    color: red;
+    font-size: 11px;
+    font-weight: bold;
+    float: left;
+    cursor: default;
+}
+
+input:focus{
+    outline: none;
+}
+
+button:focus{
+    outline: none;
+}
+
+#login_button:hover{
+    background-color: #b6e157;
+}
